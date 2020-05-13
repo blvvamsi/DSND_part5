@@ -8,9 +8,9 @@ MOTIVATION: The motivation behind this project is to create a Data Science pipel
 
 USAGE:
 
-First navigate to the data folder in workspace and run this command : python3 data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+First navigate to the workspace folder and run this command : python3 data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 
-Next navigate to the models folder in workspace and run this command : python3 models/train_classifier.py  data/DisasterResponse.db models/classifier.pkl models/vocabulary_stats.pkl models/category_stats.pkl
+Navigate to the workspace folder and run this command : python3 models/train_classifier.py  data/DisasterResponse.db models/classifier.pkl models/vocabulary_stats.pkl models/category_stats.pkl
 
 This will create the pickle models to be used in our web app
 
